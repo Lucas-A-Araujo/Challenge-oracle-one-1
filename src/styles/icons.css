@@ -1,0 +1,23 @@
+img {
+    height: 5vh;
+    width: 5vh;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#float-button {
+    margin-top: 60vh;
+    padding-bottom: 5vh;
+    margin-left: auto;
+
+    position: absolute;
+
+    transition: 0.3s;
+}
+
+#float-button:hover {
+    opacity: 1;
+}

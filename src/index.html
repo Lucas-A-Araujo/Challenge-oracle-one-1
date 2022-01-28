@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptography</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Alura criptografia</h1>
+    </header>
+    <main id="main">
+        <section id="item1">
+            <h2 class="indicacao">Insira seu texto aqui:</h2>
+            <textarea class="code" id="crypt"></textarea>
+            <button class="acao" onclick="cryptography()">Criptografar</button>
+            <button class="acao" onclick="decryption()">Descriptogradar</button>
+        </section>
+        <section id="item2">
+            <h2 class="indicacao">Veja a sua mensagem:</h2>
+            <div class="code" id="result"></div>
+            <button id="float-button" onclick="copy()"><img title="COPY" src="icons/copy.png" alt=""/></button>
+        </section>
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
